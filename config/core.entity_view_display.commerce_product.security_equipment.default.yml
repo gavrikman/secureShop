@@ -1,0 +1,53 @@
+uuid: 96530ad5-ac38-4a52-b16b-75fa4ad2e612
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.security_equipment
+    - field.field.commerce_product.security_equipment.body
+    - field.field.commerce_product.security_equipment.field_image
+  module:
+    - commerce_product
+    - image
+    - text
+id: commerce_product.security_equipment.default
+targetEntityType: commerce_product
+bundle: security_equipment
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 1
+    region: content
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  stores: true
+  uid: true

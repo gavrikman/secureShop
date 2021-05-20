@@ -1,0 +1,19 @@
+uuid: cc79dd26-464e-4bb7-ba6d-f16a5401a297
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.attribute_speed_installing
+field_name: attribute_speed_installing
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: commerce_product_attribute_value
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

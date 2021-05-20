@@ -1,0 +1,12 @@
+uuid: dde16aa4-d418-4fc5-8b51-fd8969391af6
+langcode: en
+status: true
+dependencies: {  }
+id: security_service
+label: 'Security service'
+description: ''
+variationType: security_service
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false
