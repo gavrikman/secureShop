@@ -1,0 +1,26 @@
+name: yariksecuresite
+recipe: drupal9
+config:
+  php: '7.3'
+  via: nginx:1.14
+  webroot: web
+  database: mysql:5.7
+  xdebug: true
+  composer: []
+services:
+  node:
+    type: node:10
+    globals:
+      grunt-cli: latest
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  grunt:
+    service: node
+  drush:
+    cmd: ./vendor/bin/drush
+proxy:
+  appserver_nginx:
+    - yarik.security.shop

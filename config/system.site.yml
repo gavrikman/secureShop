@@ -1,0 +1,14 @@
+uuid: 8dbb5d82-d12e-4011-9abc-0de5921f845b
+name: 'yarik secure shop'
+mail: yarik@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
