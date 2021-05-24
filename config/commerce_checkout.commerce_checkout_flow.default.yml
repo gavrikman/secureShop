@@ -1,7 +1,10 @@
 uuid: a5c71da8-5b23-4f38-84b9-6e6eccda10c0
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - commerce_payment
+    - commerce_promotion
 _core:
   default_config_hash: 5BYvSDemm8xYwB9rMGFuEuGK6FxVheqtXEUxnpKO2N4
 id: default
@@ -20,9 +23,6 @@ configuration:
       double_entry: true
       step: order_information
       weight: 1
-    billing_information:
-      step: order_information
-      weight: 2
     review:
       step: review
       weight: 3
@@ -36,3 +36,17 @@ configuration:
       view: null
       step: _sidebar
       weight: 5
+    completion_register:
+      step: complete
+      weight: 10
+    payment_information:
+      step: order_information
+      weight: 10
+    payment_process:
+      capture: true
+      step: payment
+      weight: 10
+    coupon_redemption:
+      allow_multiple: false
+      step: _sidebar
+      weight: 10

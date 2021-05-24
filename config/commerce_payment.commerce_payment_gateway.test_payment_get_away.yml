@@ -1,0 +1,19 @@
+uuid: 1c923aad-a647-4cf1-a91c-fd417fb79fec
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment_example
+id: test_payment_get_away
+label: 'Test payment get away'
+weight: null
+plugin: example_stored_offsite_redirect
+configuration:
+  redirect_method: post
+  display_label: 'Example Stored Offsite'
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

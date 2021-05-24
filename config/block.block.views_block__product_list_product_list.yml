@@ -1,0 +1,29 @@
+uuid: 09fb0766-9da3-47ab-8c40-bc1184b90cfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_list
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__product_list_product_list
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:product_list-product_list'
+settings:
+  id: 'views_block:product_list-product_list'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

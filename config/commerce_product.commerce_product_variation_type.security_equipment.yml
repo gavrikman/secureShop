@@ -5,6 +5,6 @@ dependencies: {  }
 id: security_equipment
 label: 'Security equipment'
 orderItemType: default
-generateTitle: null
+generateTitle: true
 traits: {  }
 locked: false

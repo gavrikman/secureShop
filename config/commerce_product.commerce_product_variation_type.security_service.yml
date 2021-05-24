@@ -5,6 +5,6 @@ dependencies: {  }
 id: security_service
 label: 'Security service'
 orderItemType: default
-generateTitle: null
+generateTitle: true
 traits: {  }
 locked: false

@@ -19,7 +19,9 @@ module:
   commerce_payment_example: 0
   commerce_price: 0
   commerce_product: 0
+  commerce_promotion: 0
   commerce_store: 0
+  commerce_tax: 0
   config: 0
   contact: 0
   contextual: 0
@@ -64,6 +66,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_autocomplete_filters: 0
+  views_autosubmit: 0
   views_ui: 0
   views: 10
   standard: 1000
