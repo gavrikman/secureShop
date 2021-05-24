@@ -1,0 +1,12 @@
+uuid: c905118e-e02a-48eb-8765-979fe5ebaf70
+langcode: en
+status: true
+dependencies: {  }
+id: security_equipment
+label: 'Security equipment'
+description: ''
+variationType: security_equipment
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

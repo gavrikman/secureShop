@@ -1,0 +1,23 @@
+uuid: fcbc8fb7-9bd8-4c4b-a8a2-9f907c8858d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.security_service
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.security_service.body
+field_name: body
+entity_type: commerce_product
+bundle: security_service
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

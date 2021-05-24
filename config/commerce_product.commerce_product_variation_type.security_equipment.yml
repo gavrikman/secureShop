@@ -1,0 +1,10 @@
+uuid: 18a7a088-e554-4ef9-b4e7-1848f65465cf
+langcode: en
+status: true
+dependencies: {  }
+id: security_equipment
+label: 'Security equipment'
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

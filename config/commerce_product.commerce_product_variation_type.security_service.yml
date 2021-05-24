@@ -1,0 +1,10 @@
+uuid: f59b498b-3164-4ab1-b50a-69b95e4d3608
+langcode: en
+status: true
+dependencies: {  }
+id: security_service
+label: 'Security service'
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

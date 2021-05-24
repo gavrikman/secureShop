@@ -1,0 +1,7 @@
+uuid: 987c34a0-36e0-4dca-bfc7-1dc173b72a93
+langcode: en
+status: true
+dependencies: {  }
+id: speed_installing
+label: 'speed installing'
+elementType: select
